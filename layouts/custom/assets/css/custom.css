@@ -1,0 +1,744 @@
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */
+
+/** CUSTOM H2 Center **/
+
+.headertekst {
+    {
+      text-align: center;
+      width:100%
+    }
+
+
+/** HR **/
+
+.hr-style1 {
+	border-top: 1px solid #8c8b8b;
+}
+
+/** Paginação **/
+.pagination-wrapper {
+	margin: 15px 0;
+	text-align: center;
+}
+
+.pagination li {
+	list-style-type: none;
+	display: inline-block;
+	border-right: 1px solid #e08821;
+	transform: scale(1) rotate(19deg) translateX(0px) translateY(0px) skewX(-10deg) skewY(-20deg);
+}
+
+.pagination li:hover {
+	background: #e08821;
+	color: #0c0c0c;
+}
+
+.pagination li:hover a {
+	color: #0c0c0c;
+}
+
+.pagination li:first-child,
+.pagination li:last-child {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.pagination li.pagination-prev:hover,
+.pagination li.pagination-next:hover {
+	background: none;
+}
+
+.pagination li a {
+	padding: 15px 20px;
+	display: inline-block;
+	color: #FFFFFF;
+	font-weight: normal;
+	transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(20deg) skewY(0deg);
+}
+
+.pagination li span {
+	padding: 15px 20px;
+	display: inline-block;
+	color: #FFFFFF;
+	font-weight: normal;
+	transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(20deg) skewY(0deg);
+}
+
+.pagination li.no-link:hover {
+	background: none;
+}
+.pagination li.no-link span {
+	color: #7e7b76;
+}
+
+.pagination li:first-child {
+	border-left: 1px solid #e08821;
+}
+
+.pagination li.pagination-prev { 
+	margin: 0 16px 0 0;
+	border: none;
+}
+.pagination li.pagination-next { 
+	margin: 0 0 0 16px;
+	border: none;
+}
+
+.pagination li.pagination-prev a,
+.pagination li.pagination-next a {
+	padding: 15px 20px;
+	font-size: 12px;
+}
+
+pagination li.pagination-prev a:hover,
+.pagination li.pagination-next a:hover {
+	speak: none;
+	font-style: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	
+	// Better Font Rendering
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+/** Paginação Fim **/
+
+
+/*System created by Leandro*/
+a.equipment{
+    border:none;
+    cursor:help
+}
+ a.equipment img{
+    border:none
+}
+ a.equipment span{
+    visibility:hidden;
+    display:none
+}
+ a.equipment:hover{
+    position:relative;
+    text-decoration:none
+}
+ a:hover.equipment span{
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    box-shadow:3px 3px 3px rgba(0,0,0,.4);
+     -webkit-box-shadow:3px 3px rgba(0,0,0,.4);
+     -moz-box-shadow:3px 3px rgba(0,0,0,.4);
+     font-family:Verdana,sans-serif;
+    position:absolute;
+    left:.25em;
+    top:1.25em;
+    z-index:99;
+    background:#333;
+    border:2px solid #111;
+    font-weight:400;
+    text-align:center;
+    text-decoration:none;
+    padding:.1em;
+    width:175px;
+    display:block;
+    opacity:.95;
+    filter:alpha(opacity=95);
+    z-index:150
+}
+ #equipment .EquipTitleNormal{
+    font-size:12px;
+    color:#1eff00
+}
+ #equipment .EquipTitleMagical{
+    font-size:12px;
+    color:#0070dd
+}
+ #equipment .EquipTitleDonation{
+    font-size:12px;
+    font-weight:700;
+    color:red
+}
+ #equipment .EquipText{
+    font-size:10px;
+    color:#fff
+}
+ .CharAttrHeader{
+    font-size:10px;
+    font-weight:700;
+    text-align:right;
+    padding-right:5px;
+    background:#d4c0a1
+}
+ .CharAttrText{
+    font-size:9px;
+    text-align:left;
+    background:#f1e0c6
+}
+ .ItemSlotStroke{
+    color:#fff;
+    text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+    position:absolute;
+    padding-top:18px;
+    z-index:150
+}
+ #equipment a:hover span,#equipment a:active span,#equipment a:focus span{
+    visibility:visible
+}
+#equipment a:hover,#equipment a:focus{
+    visibility:visible
+}
+
+/* CSS by Leandro */
+.signBgrnd {
+    background-image: url(./images/equipment/outfit.png);
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    left: 4px;
+    top: -37px;
+    margin-top: 38px;
+    margin-bottom: -58px;
+    padding: 15px;
+    height: 202px;
+    width: 146px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.42),0 6px 20px 0 rgba(0, 0, 0, 0.3) !important;
+}
+/* Weapon */
+.signBgrnd .wep {
+    position: absolute;
+    top: 90px;
+    left: 11px;
+    width: 32px;
+    height: 32px;
+}
+.signBgrnd .wep img {
+    background-image:url(./images/items/bg.png);
+    max-width: 100%;
+}
+/* Armor */
+.signBgrnd .arm {
+    position: absolute;
+    top: 76px;
+    left: 48px;
+    width: 32px;
+    height: 32px;
+}
+.signBgrnd .arm img {
+    background-image:url(./images/items/bg.png);
+    max-width: 100%;
+}
+/* Helmet */
+.signBgrnd .helm {
+    position: absolute;
+    top: 39px;
+    left: 48px;
+    width: 32px;
+    height: 32px;
+}
+.signBgrnd .helm img {
+    background-image:url(./images/items/bg.png);
+    max-width: 100%;
+}
+/* legs */
+.signBgrnd .legs {
+    position: absolute;
+    top: 113px;
+    left: 48px;
+    width: 32px;
+    height: 32px;
+}
+.signBgrnd .legs img {
+    background-image:url(./images/items/bg.png);
+    max-width: 100%;
+}
+/* boots */
+.signBgrnd .boots {
+    position: absolute;
+    top: 150px;
+    left: 48px;
+    width: 32px;
+    height: 32px;
+}
+.signBgrnd .boots img {
+    background-image:url(./images/items/bg.png);
+    max-width: 100%;
+}
+/* ring */
+.signBgrnd .ring {
+    position: absolute;
+    top: 127px;
+    left: 11px;
+    width: 32px;
+    height: 32px;
+}
+.signBgrnd .ring img {
+    background-image:url(./images/items/bg.png);
+    max-width: 100%;
+}
+/* amulet */
+.signBgrnd .amulet {
+    position: absolute;
+    top: 53px;
+    left: 11px;
+    width: 32px;
+    height: 32px;
+}
+.signBgrnd .amulet img {
+    background-image:url(./images/items/bg.png);
+    max-width: 100%;
+}
+/* backpack */
+.signBgrnd .backpack {
+    position: absolute;
+    top: 53px;
+    left: 85px;
+    width: 32px;
+    height: 32px;
+}
+.signBgrnd .backpack img {
+    background-image:url(./images/items/bg.png);
+    max-width: 100%;
+}
+/* shield */
+.signBgrnd .shield {
+    position: absolute;
+    top: 90px;
+    left: 85px;
+    width: 32px;
+    height: 32px;
+}
+.signBgrnd .shield img {
+    background-image:url(./images/items/bg.png);
+    max-width: 100%;
+}
+/* arrow */
+.signBgrnd .arrow {
+    position: absolute;
+    top: 127px;
+    left: 85px;
+    width: 32px;
+    height: 32px;
+}
+.signBgrnd .arrow img {
+    background-image:url(./images/items/bg.png);
+    max-width: 100%;
+}
+.signBgrnd .cap {
+position: absolute;
+top: 162px;
+left: 89px;
+width: 32px;
+height: 32px;
+font-size: 6.3pt;
+font-family: inherit;
+text-shadow: -1px -1px 0 rgba(0,0,0,0.50),1px -1px 0 rgba(0,0,0,0.50),-1px 1px 0 rgba(0,0,0,0.50),1px 1px 0 rgba(0,0,0,0.50);
+font-weight: normal;
+color: rgba(255, 255, 255, 0.61);
+font-weight: bold;
+}
+.signBgrnd .soul {
+position: absolute;
+top: 162px;
+left: 15px;
+width: 32px;
+height: 32px;
+font-size: 6.3pt;
+font-family: inherit;
+text-shadow: -1px -1px 0 rgba(0,0,0,0.50),1px -1px 0 rgba(0,0,0,0.50),-1px 1px 0 rgba(0,0,0,0.50),1px 1px 0 rgba(0,0,0,0.50);
+color: rgba(255, 255, 255, 0.61);
+font-weight: bold;
+}
+
+/* CSS by Leandro */
+
+.hptext {
+	position: absolute;
+	font-size: 8.0pt;
+	margin-left: 102px;
+	margin-top: -1px;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+.manatext {
+	position: absolute;
+	font-size: 8.0pt;
+	margin-left: 102px;
+	margin-top: -1px;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+.lifebarpercent {
+	/* width: '.$hp.'%; */
+	max-width: 100%;
+	margin-left: 30.4px;
+	height: 5px;
+	position: absolute;
+	margin-top: 7px;
+}
+
+.lifebarbk {
+	background: url(images/equipment/lifebarra.png);
+	height: 12px;
+	border-radius: 10px;
+	max-width: 13.5%;
+}
+
+.manapercent {
+	/* width: '.$mana.'%; */
+	max-width: 100%;
+	margin-left: 30.4px;
+	height: 5px;
+	position: absolute;
+	margin-top: 20px;
+}
+
+.manabk {
+	background: url(images/equipment/manabar.png);
+	height: 12px;
+	border-radius: 10px;
+	max-width: 13.5%;
+}
+
+/* Skills CSS by Leandro */
+/* Description of player */
+
+.SkillsBgrnd {
+	background-image: url(images/equipment/skillsbackground.png);
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	left: 16px;
+	top: -37px;
+	margin-top: 38px;
+	margin-bottom: -23px;
+	padding: 15px;
+	height: 202px;
+	width: 154px;
+	box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.42), 0 6px 20px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+
+/* Exp */
+
+.SkillsBgrnd .exp {
+	position: absolute;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+}
+
+
+/* Level */
+
+.SkillsBgrnd .level {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 13px;
+	margin-bottom: 1px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+
+/* Hit Points */
+
+.SkillsBgrnd .hitpoints {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 28px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+
+/* Mana Points */
+
+.SkillsBgrnd .mana {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 42px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+
+/* Soul Points */
+
+.SkillsBgrnd .soul {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 56px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+
+/* Cap Points */
+
+.SkillsBgrnd .cap {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 70px;
+	margin-bottom: 1px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+
+/* Stamina Points */
+
+.SkillsBgrnd .stamina {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 84px;
+	margin-bottom: 3px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+
+/* Magic Level Points */
+
+.SkillsBgrnd .magiclevel {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 98px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+.SkillsBgrnd .Fist {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 116px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+.SkillsBgrnd .Club {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 130px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+.SkillsBgrnd .Sword {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 145px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+.SkillsBgrnd .Axe {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 159px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+.SkillsBgrnd .Distance {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 172px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+.SkillsBgrnd .Shield {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 186px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+.SkillsBgrnd .Fishing {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	text-align: right;
+	margin-top: 200px;
+	font-size: 7.0pt;
+	font-weight: bold;
+	color: #b5b5b5;
+}
+
+/*  To outfit */
+.OutfitBgrnd {
+	/*background-image: url(/images/equipment/outfitbackgrounds.png);*/
+	background-repeat: no-repeat;
+	position: relative;
+	float: center;
+	left: 0px;
+	top: -40px;
+	margin-top: 38px;
+	margin-bottom: -25px;
+	padding: 15px 0;
+	height: 132px;
+	width: 520px;
+	/*box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.42), 0 6px 20px 0 rgba(0, 0, 0, 0.3)!important*/
+}
+
+.OutfitBgrnd img {
+	margin-left: -27px !important;
+	margin-top: -32px !important
+}
+
+.OutfitBgrnd .grayimg {
+	filter: none;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	opacity: .5;
+	filter: alpha(opacity=50);
+	margin-left: -25pt;
+	margin-top: -25px
+}
+
+.OutfitBgrnd .OutfitPlayer {
+	margin: 0;
+	height: 64px;
+	width: 64px
+}
+
+.OutfitBgrnd .OutfitName {
+	position: absolute;
+	margin: 0 auto;
+	width: 145px;
+	height: 10px;
+	text-align: center;
+	top: 203px;
+	font-size: 8pt;
+	font-weight: 700;
+	color: #b5b5b5
+}
+
+/* Quest & tasks */
+progress {
+	width: 560px;
+	height: 12px;
+	margin: 0px auto;
+	position: center;
+
+	/* Important Thing */
+	-webkit-appearance: none;
+	border: none;
+}
+
+progress::-webkit-progress-bar {
+	background: #ffffff;
+	border-radius: 50px;
+	padding: 2px;
+	box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+}
+
+
+progress::-webkit-progress-value {
+	border-radius: 50px;
+	box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+	background:
+		-webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+		-webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
+		-webkit-linear-gradient(left, #009900, #66ffcc);
+	
+	/* Looks great, now animating it */
+	background-size: 25px 14px, 100% 100%, 100% 100%;
+	-webkit-animation: move 5s linear 0 infinite;
+}
+
+
+@-webkit-keyframes move {
+	0% {background-position: 0px 0px, 0 0, 0 0}
+	100% {background-position: -100px 0px, 0 0, 0 0}
+}
+
+.scrollcharacters{
+    /* width:300px; */
+    max-height:170px;
+    /* //background-color:#F2F2F2; */
+    overflow:auto;
+}
+.pedestalcharacters {
+    background-image: url(../../../images/characters/player_pedestal.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 47px;
+    height: 48px;
+    right: 7px;
+    bottom: 0px;
+    top: 25px;
+}
+
+.isPremium {
+    background: transparent url(../../../images/characters/player_pedestal.png) no-repeat center;
+    position: absolute;
+    width: 19px;
+    background-position-x: -23px;
+    top: 0;
+    left: 58px;
+    z-index: 1
+}
+
+.isPremiumEffect {
+    z-index: 100;
+    background: transparent url(../../../images/characters/sparkle.gif) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    transform: rotate(0deg);
+    top: 56px;
+    right: 20px;
+}
+
+/**/
+
